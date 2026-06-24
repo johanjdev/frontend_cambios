@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sara Viloria</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Bootstrap 5 CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+  />
+
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+
+<div class="site-wrapper">
+
+  <header class="site-header d-flex justify-content-between align-items-center">
+    <div class="brand">Sara Viloria <span>ECCI</span></div>
+
+    <nav class="d-flex gap-1 align-items-center">
+      <button class="btn-lime lang-toggle" type="button" aria-label="Cambiar a inglés">EN</button>
+      <a href="./pages/index.html" class="nav-link active-link" data-i18n="navGallery">Galeria y Glosario</a>
+    </nav>
+  </header>
+
+  <div class="main-layout">
+
+    <div class="row g-3 h-100 m-0">
+
+      <main class="col-8 main-grid p-0 pe-2">
+
+        <div class="card-panel hero">
+          <div>
+            <p class="eyebrow text-uppercase" data-i18n="heroEyebrow">Teoría del Color · Diseño de Software</p>
+            <h1 class="display-title" data-i18n="heroTitle">El color no<br>es estética,<br><em>es comunicación.</em></h1>
+            <p class="body-text mt-3" style="max-width:36ch;" data-i18n="heroParagraph">El color es la primera información que procesa el cerebro antes de leer una sola palabra. En software, cada elección cromática afecta la usabilidad, la confianza del usuario y la conversión.</p>
+
+            <div class="d-flex flex-wrap gap-1 mt-3">
+
+              <span class="badge bg-accent text-dark" data-i18n="badge1">Rueda Cromática</span>
+              <span class="badge bg-accent text-dark" data-i18n="badge2">Contraste</span>
+              <span class="badge bg-accent text-dark" data-i18n="badge3">Psicología</span>
+              <span class="badge bg-accent text-dark" data-i18n="badge4">Armonias</span>
+              <span class="badge bg-accent text-dark" data-i18n="badge5">Colores Complementarios</span>
+              <span class="badge bg-accent text-dark" data-i18n="badge6">Efectos visuales</span>
+            </div>
+          </div>
+
+          <div>
+              <h1 class="mt-3" data-i18n="heroTitle2">Experiencias vividas</h1>
+              <p class="mt-3 body-text" style="max-width:36ch;" data-i18n="heroParagraph2">Sara en su charla indicaba que el color es un activador neural; esto viene desde nuestros antepasados, los cuales asociaban el color con lo que sentían. Ella explicó que si creemos que el rojo es peligro, es por el picante, ya que en su mayoría el color que predomina es el rojo, y que el gris se percibe frío por las piedras. Ella decía que, al estar más cerca del límite, los colores tenían más contraste, que la rueda no es plana y que se puede interpretar de varias maneras. <br> Por otra parte, la charla es enriquecedora para tener en cuenta al momento de desarrollar sitios web.</p>
+          </div>
+        </div>
+
+        <div class="card-panel side">
+          <div>
+            <p class="eyebrow text-uppercase" data-i18n="objectiveEyebrow">Objetivo del sitio</p>
+            <h2 class="section-title" data-i18n="objectiveTitle">Objetivos</h2>
+
+            <ul class="list-unstyled feature-list mt-2">
+              <li data-i18n="objective1"><strong>1.</strong> — Mostrar cómo el color orienta decisiones de UI y arquitectura de información.</li>
+              <li data-i18n="objective2"><strong>2.</strong> — Fomentar la interacción con ejemplos visuales y herramientas de diseño.</li>
+              <li><strong>3.</strong> — Documentar prácticas de contraste, legibilidad y navegación clara.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-panel side">
+          <div>
+            <p class="eyebrow text-uppercase" data-i18n="impactEyebrow">Impacto en UX</p>
+            <h2 class="section-title" data-i18n="impactTitle">Color y comportamiento</h2>
+
+            <div class="d-flex flex-column gap-2 mt-2">
+
+              <div>
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="skill-label" data-i18n="skill1Label">Reconocimiento de marca</span>
+                  <span class="skill-label" data-i18n="skill1Value">80%</span>
+                </div>
+                <div class="progress" style="height:4px;">
+                  <div class="progress-bar bg-accent" style="width:80%"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="skill-label" data-i18n="skill2Label">Conversión CTA</span>
+                  <span class="skill-label" data-i18n="skill2Value">68%</span>
+                </div>
+                <div class="progress" style="height:4px;">
+                  <div class="progress-bar bg-accent" style="width:68%"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="skill-label" data-i18n="skill3Label">Legibilidad texto</span>
+                  <span class="skill-label" data-i18n="skill3Value">92%</span>
+                </div>
+                <div class="progress" style="height:4px;">
+                  <div class="progress-bar bg-accent" style="width:92%"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="skill-label" data-i18n="skill4Label">Retención visual</span>
+                  <span class="skill-label" data-i18n="skill4Value">74%</span>
+                </div>
+                <div class="progress" style="height:4px;">
+                  <div class="progress-bar bg-accent" style="width:74%"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="card-panel side">
+          <div>
+            <p class="eyebrow text-uppercase" data-i18n="harmonyEyebrow">Armonías de Color</p>
+            <h2 class="section-title" data-i18n="harmonyTitle">Relaciones cromáticas</h2>
+
+            <ul class="list-unstyled feature-list mt-2">
+              <li data-i18n="harmony1"><strong>Complementarios</strong> — Colores opuestos para un contraste fuerte y reconocido.
+              </li>
+              <li data-i18n="harmony2"><strong>Análogos</strong> — Tres tonos cercanos para interfaces suaves y coherentes.
+              </li>
+              <li data-i18n="harmony3"><strong>Triádicos</strong> — Equilibrio con contraste vibrante en llamadas a la acción.
+              </li>
+              <li data-i18n="harmony4"><strong>Split-comp.</strong> — Contraste controlado con una paleta más tranquila.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-panel">
+          <div>
+            <p class="eyebrow text-uppercase" data-i18n="psychologyEyebrow">Psicología del Color</p>
+            <h2 class="section-title" data-i18n="psychologyTitle">El color comunica sin palabras</h2>
+            <p class="body-text mt-2" data-i18n="psychologyParagraph">Rojo activa urgencia. Azul genera confianza. Verde indica éxito. Estas respuestas son universales y deben guiar cada decisión de diseño en tu app.</p>
+
+            <div class="d-flex flex-column gap-1 mt-2">
+              <span class="small" style="color:var(--col-muted);" data-i18n="colorRed">Rojo — Alerta, energía, urgencia</span>
+              <span class="small" style="color:var(--col-muted);" data-i18n="colorBlue">Azul — Confianza, calma, tecnología</span>
+              <span class="small" style="color:var(--col-muted);" data-i18n="colorGreen">Verde — Éxito, naturaleza, aprobación</span>
+            </div>
+
+          </div>
+        </div>
+
+      </main>
+
+      <aside class="col-4 gallery-panel p-2">
+
+        <div class="d-flex justify-content-between align-items-center mb-2">
+            <span class="small" style="color:var(--col-muted);" data-i18n="galleryExamples">
+                10 ejemplos
+            </span>
+        </div>
+
+        <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/arte.jpg" class="d-block w-100" alt="" loading="lazy">
+              <div class="overlay"><div class="overlay-title" data-i18n-title="gallery1Title">Teoría del color</div></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/color.jpg" class="d-block w-100" alt="" loading="lazy">
+              <div class="overlay"><div class="overlay-title" data-i18n-title="gallery2Title">Color</div></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/contraste.jpg" class="d-block w-100" alt="" loading="lazy">
+              <div class="overlay"><div class="overlay-title" data-i18n-title="gallery3Title">Contraste</div></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/efectovisual.jpg" class="d-block w-100" alt="" loading="lazy">
+              <div class="overlay"><div class="overlay-title" data-i18n-title="gallery4Title">Efecto visual</div></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/morado.jpg" class="d-block w-100" alt="" loading="lazy">
+              <div class="overlay"><div class="overlay-title" data-i18n-title="gallery5Title">Morado</div></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/naturaleza.jpg" class="d-block w-100" alt="" loading="lazy">
+              <div class="overlay"><div class="overlay-title" data-i18n-title="gallery6Title">Naturaleza</div></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/parejas.jpg" class="d-block w-100" alt="" loading="lazy">
+              <div class="overlay"><div class="overlay-title" data-i18n-title="gallery7Title">Relaciones visuales</div></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/rueda1.jpg" class="d-block w-100" alt="" loading="lazy">
+              <div class="overlay"><div class="overlay-title" data-i18n-title="gallery8Title">Rueda cromática</div></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/tonosnegros.jpg" class="d-block w-100" alt="" loading="lazy">
+              <div class="overlay"><div class="overlay-title" data-i18n-title="gallery9Title">Tonos oscuros</div></div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+
+  <footer class="site-footer d-flex justify-content-between">
+    <span class="footer-text" data-i18n="footerText">© 2026 Johan Jimenez</span>
+  </footer>
+</div>
+
+  <!-- Language confirmation modal -->
+  <div class="modal fade" id="langModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-centered">
+      <div class="modal-content" style="background:var(--bg-card); color:var(--col-body); border:1px solid var(--col-border);">
+        <div class="modal-header border-0">
+          <h5 class="modal-title">Confirmar cambio de idioma</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p class="mb-0">¿Deseas cambiar el idioma de la interfaz?</p>
+        </div>
+        <div class="modal-footer border-0">
+          <button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Cancelar</button>
+          <button id="confirmLangBtn" type="button" class="btn btn-lime btn-sm">Confirmar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="./js/i18n.js"></script>
+
+</body>
+</html>

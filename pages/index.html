@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara Viloria</title>
+
+      <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;500&display=swap"
+        rel="stylesheet"
+    />
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="../css/galeria.css" />
+</head>
+<body>
+
+<div class="container-fluid site-wrapper">
+
+    <!-- HEADER -->
+    <header class="d-flex justify-content-between align-items-center py-2 border-bottom">
+        <div class="brand">Sara Viloria <span>ECCI</span></div>
+
+        <div class="d-flex gap-2 align-items-center">
+            <button class="btn-lime lang-toggle" type="button" aria-label="Cambiar a inglés">EN</button>
+            <a href="../index.html" class="nav-link" data-i18n="backLink">volver</a>
+        </div>
+    </header>
+
+    <!-- LAYOUT -->
+    <div class="row mt-3 g-3">
+
+        <!-- GALERÍA -->
+        <section class="col-lg-8">
+
+            <div class="gallery-header mb-4">
+            <h1 class="section-title" data-i18n="galleryPageTitle">Galería dinámica</h1>
+            <p class="body-text" data-i18n="galleryPageIntro">Interactúa con cada imagen para ver el título y la descripción dentro del modal.</p>
+        </div>
+
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2">
+
+                <div class="col">
+                    <div class="gallery-item"
+                         data-i18n-title="gallery1Title"
+                         data-i18n-desc="gallery1Desc">
+                        <img src="../img/arte.jpg">
+                        <div class="overlay"><div class="overlay-title">Arte y textura</div></div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="gallery-item"
+                         data-i18n-title="gallery2Title"
+                         data-i18n-desc="gallery2Desc">
+                        <img src="../img/color.jpg">
+                        <div class="overlay"><div class="overlay-title">Paleta y contraste</div></div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="gallery-item"
+                         data-i18n-title="gallery3Title"
+                         data-i18n-desc="gallery3Desc">
+                        <img src="../img/contraste.jpg">
+                        <div class="overlay"><div class="overlay-title">Contraste</div></div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="gallery-item"
+                         data-i18n-title="gallery4Title"
+                         data-i18n-desc="gallery4Desc">
+                        <img src="../img/efectovisual.jpg">
+                        <div class="overlay"><div class="overlay-title">Efecto visual</div></div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="gallery-item"
+                         data-i18n-title="gallery5Title"
+                         data-i18n-desc="gallery5Desc">
+                        <img src="../img/morado.jpg">
+                        <div class="overlay"><div class="overlay-title">Tono morado</div></div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="gallery-item"
+                         data-i18n-title="gallery6Title"
+                         data-i18n-desc="gallery6Desc">
+                        <img src="../img/naturaleza.jpg">
+                        <div class="overlay"><div class="overlay-title">Naturaleza</div></div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="gallery-item"
+                         data-i18n-title="gallery7Title"
+                         data-i18n-desc="gallery7Desc">
+                        <img src="../img/parejas.jpg">
+                        <div class="overlay"><div class="overlay-title">Composición</div></div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="gallery-item"
+                         data-i18n-title="gallery8Title"
+                         data-i18n-desc="gallery8Desc">
+                        <img src="../img/rueda1.jpg">
+                        <div class="overlay"><div class="overlay-title">Rueda cromática</div></div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="gallery-item"
+                         data-i18n-title="gallery9Title"
+                         data-i18n-desc="gallery9Desc">
+                        <img src="../img/tonosnegros.jpg">
+                        <div class="overlay"><div class="overlay-title">Tonos oscuros</div></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- GLOSARIO FIJO -->
+        <aside class="col-lg-4">
+
+            <div class="card-panel glossary-box">
+
+                <h3 class="section-title" data-i18n="glossaryTitle">Glosario del color</h3>
+
+                <div class="glossary">
+
+                    <div data-i18n="glossary1"><strong>Caput Mortuum:</strong> pigmento rojizo oscuro usado en pintura clásica.</div>
+                    <div data-i18n="glossary2"><strong>Azul de Prusia:</strong> pigmento sintético profundo y estable.</div>
+                    <div data-i18n="glossary3"><strong>CFM:</strong> Color, Forma y Movimiento.</div>
+                    <div data-i18n="glossary4"><strong>Contraste:</strong> diferencia entre elementos visuales.</div>
+                    <div data-i18n="glossary5"><strong>Saturación:</strong> intensidad del color.</div>
+                    <div data-i18n="glossary6"><strong>Matiz:</strong> identidad del color.</div>
+                    <div data-i18n="glossary7"><strong>Valor tonal:</strong> claridad u oscuridad.</div>
+                    <div data-i18n="glossary8"><strong>Complementarios:</strong> colores opuestos.</div>
+                    <div data-i18n="glossary9"><strong>Armonía:</strong> equilibrio visual.</div>
+                    <div data-i18n="glossary10"><strong>Rueda cromática:</strong> organización del color.</div>
+                    <div data-i18n="glossary11"><strong>Temperatura:</strong> colores cálidos o fríos.</div>
+                    <div data-i18n="glossary12"><strong>Percepción:</strong> interpretación visual.</div>
+                    <div data-i18n="glossary13"><strong>Psicología del color:</strong> impacto emocional.</div>
+                    <div data-i18n="glossary14"><strong>Primarios:</strong> base del color.</div>
+                    <div data-i18n="glossary15"><strong>Secundarios:</strong> mezcla de primarios.</div>
+
+                </div>
+                <div class="mt-4">
+                    <h4 class="section-title" data-i18n="conclusionTitle">Tecnología, sostenibilidad y economía circular</h4>
+                    <p class="body-text mt-2" data-i18n="conclusionIntro">En el evento de colores y moda, la sostenibilidad se refleja en la elección de materiales, el uso responsable del color y la creación de propuestas que respetan el medio ambiente.</p>
+                    <ul class="list-unstyled feature-list mt-2">
+                        <li data-i18n="conclusion1">Reducción de residuos.</li>
+                        <li data-i18n="conclusion2">Reutilización.</li>
+                        <li data-i18n="conclusion3">Optimización de recursos.</li>
+                        <li data-i18n="conclusion4">Producción sostenible.</li>
+                        <li data-i18n="conclusion5">Impacto ambiental positivo.</li>
+                    </ul>
+                </div>
+            </div>
+
+            </div>
+
+        </aside>
+
+    </div>
+
+</div>
+
+<!-- MINI MODAL -->
+<div id="imgModal" class="img-modal">
+
+    <div class="modal-box">
+
+        <button class="close-btn">&times;</button>
+
+        <img id="modalImg" src="" alt="">
+        <h2 id="modalTitle"></h2>
+        <p id="modalDesc"></p>
+
+    </div>
+
+</div>
+
+<!-- Language confirmation modal -->
+<div class="modal fade" id="langModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-sm modal-dialog-centered">
+    <div class="modal-content" style="background:var(--bg-card); color:var(--col-body); border:1px solid var(--col-border);">
+      <div class="modal-header border-0">
+        <h5 class="modal-title">Confirmar cambio de idioma</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p class="mb-0">¿Deseas cambiar el idioma de la interfaz?</p>
+      </div>
+      <div class="modal-footer border-0">
+        <button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Cancelar</button>
+        <button id="confirmLangBtn" type="button" class="btn btn-lime btn-sm">Confirmar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer d-flex justify-content-between align-items-center px-3">
+    <span class="footer-text">© 2026 Johan Jimenez</span>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="../js/i18n.js"></script>
+<script src="../js/galeria.js"></script>
+
+</body>
+</html>
